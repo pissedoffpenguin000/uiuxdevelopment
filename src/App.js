@@ -83,7 +83,7 @@ function App() {
       <h1>Expired Foods Bakery</h1> {/* TODO: personalize your bakery (if you want) */}
       <Navbar bg="light" expand="lg">
       <Container>
-      <Navbar.Brand >Filtering and Sorting</Navbar.Brand>
+      <Navbar.Brand >Sort and Filter</Navbar.Brand>
       <NavDropdown title="Filter by Type" id="basic-nav-dropdown" onSelect={selectFilterType}>
               <NavDropdown.Item eventKey="All">All</NavDropdown.Item>
               <NavDropdown.Item eventKey="pastry">Pastry
